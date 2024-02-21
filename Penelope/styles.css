@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: purple;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Center container */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style social media buttons */
+.social-links button {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.social-links button img {
+    width: 30px; /* Adjust the size of social media icons as needed */
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* Style whitepaper button */
+.whitepaper button {
+    background-color: transparent;
+    border: 2px solid rgb(12, 7, 7);
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.whitepaper button:hover {
+    background-color: rgb(230, 210, 221);
+    color: rgb(226, 37, 78);
+}
